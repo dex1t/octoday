@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63BB4EB61A910F6D00E862DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BB4EB51A910F6D00E862DF /* AppDelegate.m */; };
+		63BB4EB81A910F6D00E862DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BB4EB71A910F6D00E862DF /* main.m */; };
+		63BB4EBB1A910F6D00E862DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BB4EBA1A910F6D00E862DF /* ViewController.m */; };
+		63BB4EBD1A910F6D00E862DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63BB4EBC1A910F6D00E862DF /* Images.xcassets */; };
+		63BB4EC01A910F6D00E862DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63BB4EBE1A910F6D00E862DF /* Main.storyboard */; };
+		63BB4ECC1A910F6D00E862DF /* octodayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BB4ECB1A910F6D00E862DF /* octodayTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63BB4EC61A910F6D00E862DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63BB4EA71A910F6D00E862DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63BB4EAE1A910F6D00E862DF;
+			remoteInfo = octoday;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63BB4EAF1A910F6D00E862DF /* octoday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = octoday.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63BB4EB31A910F6D00E862DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63BB4EB41A910F6D00E862DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63BB4EB51A910F6D00E862DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63BB4EB71A910F6D00E862DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63BB4EB91A910F6D00E862DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		63BB4EBA1A910F6D00E862DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		63BB4EBC1A910F6D00E862DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		63BB4EBF1A910F6D00E862DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63BB4EC51A910F6D00E862DF /* octodayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = octodayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63BB4ECA1A910F6D00E862DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63BB4ECB1A910F6D00E862DF /* octodayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = octodayTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63BB4EAC1A910F6D00E862DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63BB4EC21A910F6D00E862DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63BB4EA61A910F6D00E862DF = {
+			isa = PBXGroup;
+			children = (
+				63BB4EB11A910F6D00E862DF /* octoday */,
+				63BB4EC81A910F6D00E862DF /* octodayTests */,
+				63BB4EB01A910F6D00E862DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63BB4EB01A910F6D00E862DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63BB4EAF1A910F6D00E862DF /* octoday.app */,
+				63BB4EC51A910F6D00E862DF /* octodayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63BB4EB11A910F6D00E862DF /* octoday */ = {
+			isa = PBXGroup;
+			children = (
+				63BB4EB41A910F6D00E862DF /* AppDelegate.h */,
+				63BB4EB51A910F6D00E862DF /* AppDelegate.m */,
+				63BB4EB91A910F6D00E862DF /* ViewController.h */,
+				63BB4EBA1A910F6D00E862DF /* ViewController.m */,
+				63BB4EBC1A910F6D00E862DF /* Images.xcassets */,
+				63BB4EBE1A910F6D00E862DF /* Main.storyboard */,
+				63BB4EB21A910F6D00E862DF /* Supporting Files */,
+			);
+			path = octoday;
+			sourceTree = "<group>";
+		};
+		63BB4EB21A910F6D00E862DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63BB4EB31A910F6D00E862DF /* Info.plist */,
+				63BB4EB71A910F6D00E862DF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63BB4EC81A910F6D00E862DF /* octodayTests */ = {
+			isa = PBXGroup;
+			children = (
+				63BB4ECB1A910F6D00E862DF /* octodayTests.m */,
+				63BB4EC91A910F6D00E862DF /* Supporting Files */,
+			);
+			path = octodayTests;
+			sourceTree = "<group>";
+		};
+		63BB4EC91A910F6D00E862DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63BB4ECA1A910F6D00E862DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63BB4EAE1A910F6D00E862DF /* octoday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63BB4ECF1A910F6D00E862DF /* Build configuration list for PBXNativeTarget "octoday" */;
+			buildPhases = (
+				63BB4EAB1A910F6D00E862DF /* Sources */,
+				63BB4EAC1A910F6D00E862DF /* Frameworks */,
+				63BB4EAD1A910F6D00E862DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = octoday;
+			productName = octoday;
+			productReference = 63BB4EAF1A910F6D00E862DF /* octoday.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63BB4EC41A910F6D00E862DF /* octodayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63BB4ED21A910F6D00E862DF /* Build configuration list for PBXNativeTarget "octodayTests" */;
+			buildPhases = (
+				63BB4EC11A910F6D00E862DF /* Sources */,
+				63BB4EC21A910F6D00E862DF /* Frameworks */,
+				63BB4EC31A910F6D00E862DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63BB4EC71A910F6D00E862DF /* PBXTargetDependency */,
+			);
+			name = octodayTests;
+			productName = octodayTests;
+			productReference = 63BB4EC51A910F6D00E862DF /* octodayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63BB4EA71A910F6D00E862DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = dex1t;
+				TargetAttributes = {
+					63BB4EAE1A910F6D00E862DF = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					63BB4EC41A910F6D00E862DF = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 63BB4EAE1A910F6D00E862DF;
+					};
+				};
+			};
+			buildConfigurationList = 63BB4EAA1A910F6D00E862DF /* Build configuration list for PBXProject "octoday" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63BB4EA61A910F6D00E862DF;
+			productRefGroup = 63BB4EB01A910F6D00E862DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63BB4EAE1A910F6D00E862DF /* octoday */,
+				63BB4EC41A910F6D00E862DF /* octodayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63BB4EAD1A910F6D00E862DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63BB4EBD1A910F6D00E862DF /* Images.xcassets in Resources */,
+				63BB4EC01A910F6D00E862DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63BB4EC31A910F6D00E862DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63BB4EAB1A910F6D00E862DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63BB4EBB1A910F6D00E862DF /* ViewController.m in Sources */,
+				63BB4EB81A910F6D00E862DF /* main.m in Sources */,
+				63BB4EB61A910F6D00E862DF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63BB4EC11A910F6D00E862DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63BB4ECC1A910F6D00E862DF /* octodayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63BB4EC71A910F6D00E862DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63BB4EAE1A910F6D00E862DF /* octoday */;
+			targetProxy = 63BB4EC61A910F6D00E862DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63BB4EBE1A910F6D00E862DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63BB4EBF1A910F6D00E862DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63BB4ECD1A910F6D00E862DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		63BB4ECE1A910F6D00E862DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		63BB4ED01A910F6D00E862DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = octoday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		63BB4ED11A910F6D00E862DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = octoday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		63BB4ED31A910F6D00E862DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = octodayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/octoday.app/Contents/MacOS/octoday";
+			};
+			name = Debug;
+		};
+		63BB4ED41A910F6D00E862DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = octodayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/octoday.app/Contents/MacOS/octoday";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63BB4EAA1A910F6D00E862DF /* Build configuration list for PBXProject "octoday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63BB4ECD1A910F6D00E862DF /* Debug */,
+				63BB4ECE1A910F6D00E862DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63BB4ECF1A910F6D00E862DF /* Build configuration list for PBXNativeTarget "octoday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63BB4ED01A910F6D00E862DF /* Debug */,
+				63BB4ED11A910F6D00E862DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63BB4ED21A910F6D00E862DF /* Build configuration list for PBXNativeTarget "octodayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63BB4ED31A910F6D00E862DF /* Debug */,
+				63BB4ED41A910F6D00E862DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63BB4EA71A910F6D00E862DF /* Project object */;
+}
