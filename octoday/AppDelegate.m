@@ -10,18 +10,26 @@
 
 @interface AppDelegate ()
 
+@property (weak) IBOutlet NSMenu *menuBar;
+@property (nonatomic) NSStatusItem *statusItem;
+
 @end
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    [self setupMenubar];
 }
 
-- (void)applicationWillTerminate:(NSNotification *)aNotification
+- (void)setupMenubar
 {
-    // Insert code here to tear down your application
+    self.statusItem = [[NSStatusItem alloc] init];
+    self.statusItem = [[NSStatusBar systemStatusBar]
+        statusItemWithLength:NSVariableStatusItemLength];
+    [self.statusItem setHighlightMode:YES];
+    [self.statusItem setImage:[NSImage imageNamed:@"menubarIcon"]];
+    [self.statusItem setMenu:self.menuBar];
 }
 
 @end
