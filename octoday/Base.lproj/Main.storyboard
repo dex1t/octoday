@@ -649,6 +649,12 @@
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
                 <menu id="ALY-Fb-KVS" userLabel="MenuBar">
                     <items>
+                        <menuItem title="Preferences" id="fZe-Xm-QeD">
+                            <modifierMask key="keyEquivalentModifierMask"/>
+                            <connections>
+                                <segue destination="VTZ-EV-onD" kind="modal" id="LmO-pn-APL"/>
+                            </connections>
+                        </menuItem>
                         <menuItem title="Quit" id="n2f-41-sac" userLabel="Quit">
                             <modifierMask key="keyEquivalentModifierMask"/>
                             <connections>
@@ -659,6 +665,102 @@
                 </menu>
             </objects>
             <point key="canvasLocation" x="75" y="0.0"/>
+        </scene>
+        <!--Window Controller-->
+        <scene sceneID="vKy-4T-NQO">
+            <objects>
+                <windowController id="VTZ-EV-onD" sceneMemberID="viewController">
+                    <window key="window" title="Preferences" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="TPX-Gv-5LI">
+                        <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
+                        <rect key="contentRect" x="622" y="419" width="480" height="270"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
+                    </window>
+                    <connections>
+                        <segue destination="Ja2-rR-jmY" kind="relationship" relationship="window.shadowedContentViewController" id="6QH-ze-eEN"/>
+                    </connections>
+                </windowController>
+                <customObject id="s0l-pn-Bs0" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="75" y="288"/>
+        </scene>
+        <!--Preferences View Controller-->
+        <scene sceneID="B5V-Rq-23x">
+            <objects>
+                <viewController id="Ja2-rR-jmY" customClass="PreferencesViewController" sceneMemberID="viewController">
+                    <view key="view" id="VBc-i3-Ub6">
+                        <rect key="frame" x="0.0" y="0.0" width="310" height="131"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XOu-oX-VFs">
+                                <rect key="frame" x="103" y="39" width="187" height="22"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="zvv-5o-Mrk">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tAM-JS-2Fn">
+                                <rect key="frame" x="18" y="99" width="48" height="17"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="GitHub" id="nyB-NU-CtS">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZfF-Fd-ceb">
+                                <rect key="frame" x="18" y="17" width="41" height="17"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Token" id="RXl-8n-ibs">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bH5-2G-W1b">
+                                <rect key="frame" x="18" y="42" width="73" height="17"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="User Name" id="jxA-sV-V5c">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Bt-eN-vEO">
+                                <rect key="frame" x="101" y="98" width="120" height="18"/>
+                                <buttonCell key="cell" type="check" title="Use github.com" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="EwB-2K-nc2">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="useGithubDotComButtonAction:" target="Ja2-rR-jmY" id="YDG-A1-2gA"/>
+                                </connections>
+                            </button>
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mei-bb-8ej">
+                                <rect key="frame" x="103" y="70" width="187" height="22"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="https://your.ghe.hostname/" drawsBackground="YES" id="YLe-qH-xVM">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KWP-SH-dbb">
+                                <rect key="frame" x="103" y="14" width="187" height="22"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="aWr-Qz-FKy">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="hostnameField" destination="Mei-bb-8ej" id="osv-Dt-pd4"/>
+                        <outlet property="tokenField" destination="KWP-SH-dbb" id="c6G-1Q-Nfq"/>
+                        <outlet property="useGithubDotComButton" destination="4Bt-eN-vEO" id="arV-Ng-Gjz"/>
+                        <outlet property="userNameField" destination="XOu-oX-VFs" id="YEl-rS-up2"/>
+                    </connections>
+                </viewController>
+                <customObject id="Ibg-tO-vO8" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="574" y="247.5"/>
         </scene>
     </scenes>
 </document>

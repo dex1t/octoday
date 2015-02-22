@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "Configuration.h"
+#import "GithubClient.h"
 
 @interface AppDelegate ()
 
@@ -21,6 +21,8 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     [self setupMenubar];
+    OCTClient *client = [[GithubClient sharedClient] client];
+    RACSignal *request = [client fetchUserRepositories];
 }
 
 - (void)setupMenubar

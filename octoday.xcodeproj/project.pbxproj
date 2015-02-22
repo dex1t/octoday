@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6329222F1A9A067B003C5CF9 /* GithubClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6329222E1A9A067B003C5CF9 /* GithubClient.m */; };
+		632922321A9A2F3A003C5CF9 /* PreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 632922311A9A2F3A003C5CF9 /* PreferencesViewController.m */; };
 		63BB4EB61A910F6D00E862DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BB4EB51A910F6D00E862DF /* AppDelegate.m */; };
 		63BB4EB81A910F6D00E862DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BB4EB71A910F6D00E862DF /* main.m */; };
 		63BB4EBD1A910F6D00E862DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63BB4EBC1A910F6D00E862DF /* Images.xcassets */; };
@@ -28,6 +30,10 @@
 /* Begin PBXFileReference section */
 		1A61098AA6C294185E2A8A2D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		6329222A1A99F783003C5CF9 /* Configuration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Configuration.h; sourceTree = "<group>"; };
+		6329222D1A9A067B003C5CF9 /* GithubClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GithubClient.h; path = ../GithubClient.h; sourceTree = "<group>"; };
+		6329222E1A9A067B003C5CF9 /* GithubClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GithubClient.m; path = ../GithubClient.m; sourceTree = "<group>"; };
+		632922301A9A2F3A003C5CF9 /* PreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesViewController.h; sourceTree = "<group>"; };
+		632922311A9A2F3A003C5CF9 /* PreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesViewController.m; sourceTree = "<group>"; };
 		63BB4EAF1A910F6D00E862DF /* octoday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = octoday.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63BB4EB31A910F6D00E862DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63BB4EB41A910F6D00E862DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,12 +107,16 @@
 		63BB4EB11A910F6D00E862DF /* octoday */ = {
 			isa = PBXGroup;
 			children = (
+				6329222D1A9A067B003C5CF9 /* GithubClient.h */,
+				6329222E1A9A067B003C5CF9 /* GithubClient.m */,
 				63BB4EB41A910F6D00E862DF /* AppDelegate.h */,
 				63BB4EB51A910F6D00E862DF /* AppDelegate.m */,
 				6329222A1A99F783003C5CF9 /* Configuration.h */,
 				63BB4EBC1A910F6D00E862DF /* Images.xcassets */,
 				63BB4EBE1A910F6D00E862DF /* Main.storyboard */,
 				63BB4EB21A910F6D00E862DF /* Supporting Files */,
+				632922301A9A2F3A003C5CF9 /* PreferencesViewController.h */,
+				632922311A9A2F3A003C5CF9 /* PreferencesViewController.m */,
 			);
 			path = octoday;
 			sourceTree = "<group>";
@@ -271,8 +281,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6329222F1A9A067B003C5CF9 /* GithubClient.m in Sources */,
 				63BB4EB81A910F6D00E862DF /* main.m in Sources */,
 				63BB4EB61A910F6D00E862DF /* AppDelegate.m in Sources */,
+				632922321A9A2F3A003C5CF9 /* PreferencesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
