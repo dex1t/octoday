@@ -25,3 +25,5 @@ DerivedData
 #
 Pods/
 
+# Octoday
+octoday/Configuration.h
