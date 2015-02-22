@@ -15,9 +15,11 @@ PODS:
   - ReactiveCocoa/Core (2.2.4):
     - ReactiveCocoa/no-arc
   - ReactiveCocoa/no-arc (2.2.4)
+  - UICKeyChainStore (2.0.4)
 
 DEPENDENCIES:
   - OctoKit (~> 0.5)
+  - UICKeyChainStore (~> 2.0)
 
 SPEC CHECKSUMS:
   AFNetworking: 80c4e0652b08eb34e25b9c0ff3c82556fe5967b4
@@ -25,5 +27,6 @@ SPEC CHECKSUMS:
   Mantle: a59fdca5cfedd43a0707f0418b3df4b043a1425d
   OctoKit: 82db3234475890f00f4050a3887f7b155fe71a6e
   ReactiveCocoa: 2af0e10b1cb17a060898992474eaf51d12f34ae9
+  UICKeyChainStore: 2399076d0950e20fe859b8f817548cf6ca542dd7
 
 COCOAPODS: 0.35.0
