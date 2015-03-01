@@ -688,11 +688,11 @@
             <objects>
                 <viewController id="Ja2-rR-jmY" customClass="PreferencesViewController" sceneMemberID="viewController">
                     <view key="view" id="VBc-i3-Ub6">
-                        <rect key="frame" x="0.0" y="0.0" width="310" height="131"/>
+                        <rect key="frame" x="0.0" y="0.0" width="310" height="164"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XOu-oX-VFs">
-                                <rect key="frame" x="103" y="39" width="187" height="22"/>
+                                <rect key="frame" x="103" y="72" width="187" height="22"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="zvv-5o-Mrk">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -700,7 +700,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tAM-JS-2Fn">
-                                <rect key="frame" x="18" y="99" width="48" height="17"/>
+                                <rect key="frame" x="18" y="132" width="48" height="17"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="GitHub" id="nyB-NU-CtS">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -708,7 +708,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZfF-Fd-ceb">
-                                <rect key="frame" x="18" y="17" width="41" height="17"/>
+                                <rect key="frame" x="18" y="48" width="41" height="17"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Token" id="RXl-8n-ibs">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -716,7 +716,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bH5-2G-W1b">
-                                <rect key="frame" x="18" y="42" width="73" height="17"/>
+                                <rect key="frame" x="18" y="75" width="73" height="17"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="User Name" id="jxA-sV-V5c">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -724,7 +724,7 @@
                                 </textFieldCell>
                             </textField>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Bt-eN-vEO">
-                                <rect key="frame" x="101" y="98" width="120" height="18"/>
+                                <rect key="frame" x="101" y="131" width="120" height="18"/>
                                 <buttonCell key="cell" type="check" title="Use github.com" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="EwB-2K-nc2">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -734,7 +734,7 @@
                                 </connections>
                             </button>
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mei-bb-8ej">
-                                <rect key="frame" x="103" y="70" width="187" height="22"/>
+                                <rect key="frame" x="103" y="103" width="187" height="22"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" enabled="NO" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="https://your.ghe.hostname/" drawsBackground="YES" id="YLe-qH-xVM">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -742,17 +742,41 @@
                                 </textFieldCell>
                             </textField>
                             <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KWP-SH-dbb">
-                                <rect key="frame" x="103" y="14" width="187" height="22"/>
+                                <rect key="frame" x="103" y="45" width="187" height="22"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="aWr-Qz-FKy">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y1F-Wx-ZTF">
+                                <rect key="frame" x="97" y="9" width="140" height="32"/>
+                                <buttonCell key="cell" type="push" title="Test connection" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="lQY-7J-uql">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="testConnectionButtonAction:" target="Ja2-rR-jmY" id="NG3-Ab-Skw"/>
+                                </connections>
+                            </button>
+                            <textField hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qex-ab-ngP">
+                                <rect key="frame" x="237" y="18" width="55" height="17"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="result" id="mI3-ha-aTt">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <progressIndicator hidden="YES" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" maxValue="100" bezeled="NO" indeterminate="YES" controlSize="small" style="spinning" translatesAutoresizingMaskIntoConstraints="NO" id="j4p-jB-RSG">
+                                <rect key="frame" x="239" y="18" width="16" height="16"/>
+                            </progressIndicator>
                         </subviews>
                     </view>
                     <connections>
                         <outlet property="hostnameField" destination="Mei-bb-8ej" id="osv-Dt-pd4"/>
+                        <outlet property="indicator" destination="j4p-jB-RSG" id="8mb-pf-bl5"/>
+                        <outlet property="resultLabel" destination="Qex-ab-ngP" id="Bqd-Tw-gcn"/>
+                        <outlet property="testConnectionButton" destination="y1F-Wx-ZTF" id="D1Q-Lk-p8S"/>
                         <outlet property="tokenField" destination="KWP-SH-dbb" id="c6G-1Q-Nfq"/>
                         <outlet property="useGithubDotComButton" destination="4Bt-eN-vEO" id="arV-Ng-Gjz"/>
                         <outlet property="userNameField" destination="XOu-oX-VFs" id="YEl-rS-up2"/>
@@ -760,7 +784,7 @@
                 </viewController>
                 <customObject id="Ibg-tO-vO8" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="574" y="247.5"/>
+            <point key="canvasLocation" x="574" y="264"/>
         </scene>
     </scenes>
 </document>

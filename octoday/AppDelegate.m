@@ -21,8 +21,6 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     [self setupMenubar];
-    OCTClient *client = [[GithubClient sharedClient] client];
-    RACSignal *request = [client fetchUserRepositories];
 }
 
 - (void)setupMenubar

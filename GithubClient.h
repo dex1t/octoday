@@ -12,6 +12,7 @@
 
 + (instancetype)sharedClient;
 - (void)savePreferences:(NSString *)gheHostname userName:(NSString *)userName token:(NSString *)token;
+- (void)authenticate;
 - (OCTClient *)client;
 - (NSString *)savedGheHostname;
 - (NSString *)savedUserName;
