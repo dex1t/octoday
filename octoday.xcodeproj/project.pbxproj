@@ -83,6 +83,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		639BC6E51AA3A22900614788 /* managers */ = {
+			isa = PBXGroup;
+			children = (
+				6329222D1A9A067B003C5CF9 /* GithubClient.h */,
+				6329222E1A9A067B003C5CF9 /* GithubClient.m */,
+			);
+			name = managers;
+			sourceTree = "<group>";
+		};
+		639BC6E61AA3A23C00614788 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				632922301A9A2F3A003C5CF9 /* PreferencesViewController.h */,
+				632922311A9A2F3A003C5CF9 /* PreferencesViewController.m */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		639BC6E71AA3A26B00614788 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				63BB4EBE1A910F6D00E862DF /* Main.storyboard */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
 		63BB4EA61A910F6D00E862DF = {
 			isa = PBXGroup;
 			children = (
@@ -106,15 +132,13 @@
 		63BB4EB11A910F6D00E862DF /* octoday */ = {
 			isa = PBXGroup;
 			children = (
-				6329222D1A9A067B003C5CF9 /* GithubClient.h */,
-				6329222E1A9A067B003C5CF9 /* GithubClient.m */,
 				63BB4EB41A910F6D00E862DF /* AppDelegate.h */,
 				63BB4EB51A910F6D00E862DF /* AppDelegate.m */,
+				639BC6E51AA3A22900614788 /* managers */,
+				639BC6E61AA3A23C00614788 /* controllers */,
+				639BC6E71AA3A26B00614788 /* views */,
 				63BB4EBC1A910F6D00E862DF /* Images.xcassets */,
-				63BB4EBE1A910F6D00E862DF /* Main.storyboard */,
 				63BB4EB21A910F6D00E862DF /* Supporting Files */,
-				632922301A9A2F3A003C5CF9 /* PreferencesViewController.h */,
-				632922311A9A2F3A003C5CF9 /* PreferencesViewController.m */,
 			);
 			path = octoday;
 			sourceTree = "<group>";
