@@ -683,10 +683,10 @@
             </objects>
             <point key="canvasLocation" x="75" y="288"/>
         </scene>
-        <!--Preferences View Controller-->
+        <!--Preferences-->
         <scene sceneID="B5V-Rq-23x">
             <objects>
-                <viewController id="Ja2-rR-jmY" customClass="PreferencesViewController" sceneMemberID="viewController">
+                <viewController title="Preferences" id="Ja2-rR-jmY" customClass="PreferencesViewController" sceneMemberID="viewController">
                     <view key="view" id="VBc-i3-Ub6">
                         <rect key="frame" x="0.0" y="0.0" width="310" height="164"/>
                         <autoresizingMask key="autoresizingMask"/>
