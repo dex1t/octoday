@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6329222F1A9A067B003C5CF9 /* GithubClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6329222E1A9A067B003C5CF9 /* GithubClient.m */; };
 		632922321A9A2F3A003C5CF9 /* PreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 632922311A9A2F3A003C5CF9 /* PreferencesViewController.m */; };
 		63BB4EB61A910F6D00E862DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BB4EB51A910F6D00E862DF /* AppDelegate.m */; };
 		63BB4EB81A910F6D00E862DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BB4EB71A910F6D00E862DF /* main.m */; };
 		63BB4EBD1A910F6D00E862DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63BB4EBC1A910F6D00E862DF /* Images.xcassets */; };
 		63BB4EC01A910F6D00E862DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63BB4EBE1A910F6D00E862DF /* Main.storyboard */; };
 		63BB4ECC1A910F6D00E862DF /* octodayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BB4ECB1A910F6D00E862DF /* octodayTests.m */; };
+		63BF70441AA3A30D008A0261 /* GithubClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BF70431AA3A30D008A0261 /* GithubClient.m */; };
 		9FC041E77E0EC594D439FB31 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C09227E4D1AD5FF7F10CCB1F /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -29,8 +29,6 @@
 
 /* Begin PBXFileReference section */
 		1A61098AA6C294185E2A8A2D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		6329222D1A9A067B003C5CF9 /* GithubClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GithubClient.h; path = ../GithubClient.h; sourceTree = "<group>"; };
-		6329222E1A9A067B003C5CF9 /* GithubClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GithubClient.m; path = ../GithubClient.m; sourceTree = "<group>"; };
 		632922301A9A2F3A003C5CF9 /* PreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesViewController.h; sourceTree = "<group>"; };
 		632922311A9A2F3A003C5CF9 /* PreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesViewController.m; sourceTree = "<group>"; };
 		63BB4EAF1A910F6D00E862DF /* octoday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = octoday.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +41,8 @@
 		63BB4EC51A910F6D00E862DF /* octodayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = octodayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63BB4ECA1A910F6D00E862DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63BB4ECB1A910F6D00E862DF /* octodayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = octodayTests.m; sourceTree = "<group>"; };
+		63BF70421AA3A2FD008A0261 /* GithubClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GithubClient.h; sourceTree = "<group>"; };
+		63BF70431AA3A30D008A0261 /* GithubClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GithubClient.m; sourceTree = "<group>"; };
 		C09227E4D1AD5FF7F10CCB1F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D876DE7AD0C77DF1499F68C0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,8 +86,8 @@
 		639BC6E51AA3A22900614788 /* managers */ = {
 			isa = PBXGroup;
 			children = (
-				6329222D1A9A067B003C5CF9 /* GithubClient.h */,
-				6329222E1A9A067B003C5CF9 /* GithubClient.m */,
+				63BF70421AA3A2FD008A0261 /* GithubClient.h */,
+				63BF70431AA3A30D008A0261 /* GithubClient.m */,
 			);
 			name = managers;
 			sourceTree = "<group>";
@@ -303,10 +303,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6329222F1A9A067B003C5CF9 /* GithubClient.m in Sources */,
 				63BB4EB81A910F6D00E862DF /* main.m in Sources */,
 				63BB4EB61A910F6D00E862DF /* AppDelegate.m in Sources */,
 				632922321A9A2F3A003C5CF9 /* PreferencesViewController.m in Sources */,
+				63BF70441AA3A30D008A0261 /* GithubClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
